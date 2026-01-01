@@ -1,7 +1,25 @@
-var x = 10--
-var name = "Forge"--
-var sum = x + 5--
+print("Welcome to Forge Code 1!")--
 
+# This Part asks for your name and greets you
+var name = input("Enter your name: ")--
+print("Hello")--
 print(name)--
-print(x)--
-print(sum)--
+
+// This Part adds x (10) and y (random number) together.
+var x = 10--
+var y = rand(1, 30)--
+print(x + y)--
+
+# This Part compares x and y´s sum with 25.
+if x + y > 25 {
+    print("x + y is bigger than 25")--
+} else {
+    print("x + y is 25 or less")--
+}
+
+# This Script loops until the value I is bigger than 3
+var i = 0--
+while i < 3 {
+    print(i)--
+    i = i + 1--
+}
