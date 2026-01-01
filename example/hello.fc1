@@ -1,0 +1,7 @@
+var x = 10--
+var name = "Forge"--
+var sum = x + 5--
+
+print(name)--
+print(x)--
+print(sum)--
